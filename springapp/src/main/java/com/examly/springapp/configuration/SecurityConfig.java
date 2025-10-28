@@ -21,7 +21,8 @@ public class SecurityConfig {
                 corsConfig.setAllowedOriginPatterns(List.of(
                         "http://localhost:3000",
                         "https://8081-fddecedccde329052728bccfaccecftwo.premiumproject.examly.io",
-                        "https://8081-ddaafeadaccddcacbeacdbbfecbffbbdeeecceea.premiumproject.examly.io"
+                        "https://8081-ddaafeadaccddcacbeacdbbfecbffbbdeeecceea.premiumproject.examly.io",
+                        "https://gaming-management.web.app"
                 ));
                 corsConfig.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"));
                 corsConfig.setAllowedHeaders(List.of("*"));
